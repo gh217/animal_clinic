@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AnimalSpringApplication {
 
 	public static void main(String[] args) {
+		System.out.println("here");
 		SpringApplication.run(AnimalSpringApplication.class, args);
+		System.out.println("done");
 	}
 
 }
